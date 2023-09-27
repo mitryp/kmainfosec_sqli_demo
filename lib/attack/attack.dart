@@ -1,6 +1,7 @@
-import 'package:http/http.dart' as http;
+import 'package:http/http.dart' as http hide get;
 
 import '../constants.dart';
+import '../http_get.dart' as http;
 
 part 'bool_attack.dart';
 
